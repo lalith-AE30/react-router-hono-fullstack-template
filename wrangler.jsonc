@@ -42,5 +42,11 @@
    * https://developers.cloudflare.com/workers/wrangler/configuration/#service-bindings
    */
   // "services": [{ "binding": "MY_SERVICE", "service": "my-service" }]
-  "upload_source_maps": true
+  "upload_source_maps": true,
+  "routes": [
+    {
+      "pattern": "7a159626-bffa-4051-bad5-73b7a931dfe8.arclabs.tech",
+      "custom_domain": true
+    }
+  ]
 }
